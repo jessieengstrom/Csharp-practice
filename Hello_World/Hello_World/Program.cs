@@ -10,8 +10,13 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-			Console.Read();
+			int number = 25;
+			int[] numberArray = { 1, 2, 3, 4, 5 };
+			int[] numberArray2;
+			numberArray2 = new [] { 6, 7, 8, 9, 10 };
+            Console.WriteLine("hello");
+			string userInput = Console.ReadLine();
+			Console.WriteLine(userInput);
         }
     }
 }
